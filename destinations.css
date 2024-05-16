@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #e7d5de; /* Pink background color */
+    color: rgb(133, 132, 132);
+    text-align: center;
+    padding: 20px 0;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 150px; /* Adjust size as needed */
+  }
+  
+  .menu ul {
+    list-style: none;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu ul li a {
+    color: rgb(219, 16, 16);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .menu ul li a:hover {
+    color: #ff69b4; /* Pink color on hover */
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .destination {
+    width: 1000px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .destination img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 3in;
+    margin-bottom: 2in;
+  }
+  
+  .destination-info {
+    background-color: #e25a5a; /* Light gray background color */
+    padding: 1000x;
+    border-radius: 20px;
+  }
+  
+  .destination-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .destination-info p {
+    font-size: 16px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Pink button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
